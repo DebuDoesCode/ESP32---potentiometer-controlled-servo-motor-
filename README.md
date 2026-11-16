@@ -8,6 +8,9 @@ Turn a potentiometer and a servo follows its angle in real time (0-180 degrees).
 3. The code maps that value to 0-180 degrees with `map()`.
 4. The ESP32Servo library sends a 50 Hz PWM signal (500-2400 us pulses) on GPIO23 to the servo.
 
+## Software
+- Arduino IDE with the ESP32Servo library.
+
 ## Components
 - ESP32 board
 - Servo motor
